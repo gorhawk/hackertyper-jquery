@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: consolas,monospace;
+	font-weight: normal;
+}
+
+body {
+	background: #000 url("board_bg.jpg") repeat left top;
+}
+
+div#container div {
+	overflow: hidden;
+}
+
+div#container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+div#left_column {
+	background: rgba(20, 20, 20, 0.6);
+	position: absolute;
+	left: 0;
+	right: 75%;
+	top: 0;
+	bottom: 0;
+}
+
+div#top_panel {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	top: 0;
+	bottom: 85%;	
+}
+
+div#sandbox {
+	color: #00aa22;
+	background: rgba(0, 0, 0, 0.85);
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	top: 15%;
+	bottom: 20%;
+	padding: 1%;
+}
+
+div#bottom_panel {
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	top: 80%;
+	bottom: 0;
+	background: rgba(10,10,20,0.7);
+}
+
+div#right_column {
+	position: absolute;
+	left: 75%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+div#assembly {
+	color: #0a2;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(5,5,5,0.35);
+	padding: 5px;
+}
+
+table#iptraf {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+table#bars {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-collapse: separate;
+}
+
+table#bars td {
+	background: rgba(50,70,50,0.35);
+	text-align: center;
+	color: #bfb;
+}
+
+.wrg, .reg {
+	color: #0a8;
+}
+
+.lab {
+	color: #5e5;
+}
+
+.lit, .lt8 {
+	color: #bbb;
+}
+
+.mem {
+	color: #4a0;
+}
+
+.block_cursor {
+	font-size: 20px;
+	line-height: 13px;
+	vertical-align: -15%;
+}
+
+.shadow {
+	text-shadow: 0px 0px 8px rgba(50, 180, 160, 0.7);
+}
+
+.edged {
+	border: 1px solid #222;
+}
+
+.protocol {
+	color: #4f8;
+}
+
+.ipv4 {
+	color: #4be;
+}
+
+.request_separator {
+	color: #4f8;
+	text-shadow: 0px 0px 2px rgba(200, 200, 200, 0.8);
+}
+
+.progressbar {
+	color: #2f8;
+	text-shadow: 0px 0px 5px rgba(200, 200, 200, 0.8);
+}
+
+.clear {
+	display: none;
+	clear: both;
+}
